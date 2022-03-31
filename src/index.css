@@ -1,13 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @layer {
-    li{
-        @apply px-4 cursor-pointer
-    } 
-    body{
-        @apply font-[Poppins]
+  body {
+    @apply font-[Poppins];
+  }
+
+  .animate-menu {
+    animation: bounce 2s;   
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(-300%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
     }
+    20% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    40% {
+      transform: translateY(-35%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    60% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    80% {
+      transform: translateY(-15%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    100% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
 }

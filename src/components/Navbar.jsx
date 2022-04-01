@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div
       name="nav"
-      className="flex w-full h-14  items-center justify-between px-3 sm:px-8 text-white"
+      className="flex w-full h-[8%]  items-center justify-between px-3 sm:px-8 text-white"
     >
       <div className="text-white flex font-extrabold leading-9 text-2xl ml-1 font-[Nunito]">
         <img src={logo} alt="logo" />

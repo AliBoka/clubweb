@@ -1,7 +1,6 @@
 import React from "react";
 import "../index.css";
-import homeImg from "../assets/homeimgMobile.png";
-import homeImg2 from "../assets/homepage-img.png";
+
 import {CgChevronDoubleDown} from 'react-icons/cg'
 import Link from "react-scroll/modules/components/Link";
 const Home = () => {

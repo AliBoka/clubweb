@@ -1,4 +1,5 @@
 import React from "react";
+import BuildYourWeb from "./components/BuildYourWeb";
 import Home from "./components/Home";
 import HomeImg from "./components/HomeImg";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <Home/>
     <HomeImg/>
+    <BuildYourWeb/>
     </div>
   );
 }

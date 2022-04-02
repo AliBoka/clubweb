@@ -6,7 +6,7 @@ import logoDetails from "./logoDetails";
  
 const BuildYourWeb = () => {
   return (
-    <div className="felx flex-col w-full h-auto sm:h-screen bg justify-center items-center bg-[#090707] text-white text-center px-4 sm:px-10 lg:px-14 xl:px-32 pb-4">
+    <div className="felx flex-col w-full h-auto sm:h-screen justify-center items-center bg-[#090707] text-white text-center px-4 sm:px-10 lg:px-14 xl:px-32 pb-4">
       <div className="flex flex-col justify-center sm:pt-16 pt-28 items-center px-8">
         <p className="text-2xl sm:text-4xl font-semibold">
           Let us build a website with your ideas

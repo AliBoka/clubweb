@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./components/Home";
+import HomeImg from "./components/HomeImg";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       boxShadow : '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
     <Navbar/>
     <Home/>
+    <HomeImg/>
     </div>
   );
 }

@@ -58,6 +58,15 @@ const BuildYourWeb = () => {
         </div>
       </div>
      
+      <div className="relative flex flex-col justify-center items-center w-full sm:py-28 py-36 bg-[#1A1919]">
+        <div className="flex flex-col justify-center pb-3">
+          <h1 className="sm:text-3xl text-2xl font-semibold">Choose any tool of your choice</h1>
+          <p className="text-sm sm:text-base font-extralight mt-3">Webflow, bubble, vue and react + 5 other development tools for your website</p>
+        </div>
+       {logoDetails.map((logo)=>(
+         <img src={logo.image} alt={logo.name} className={logo.style} />
+       ))}
+      </div>
     </div>
   );
 };

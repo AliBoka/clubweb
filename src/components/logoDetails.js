@@ -34,7 +34,7 @@ const logoDetails = [
     {
         name: 'react',
         image: reactLogo,
-        style: 'absolute sm:right-40 right-32  sm:top-5  top-5  sm:w-12 sm:h-12 w-11 h-10 '
+        style: 'absolute sm:right-40 right-32  sm:top-5  top-5  sm:w-auto sm:h-12 w-11 h-10 '
     },
     {
         name: 'js',

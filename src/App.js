@@ -3,6 +3,7 @@ import BuildYourWeb from "./components/BuildYourWeb";
 import FeatDevelopers from "./components/FeatDevelopers";
 import Home from "./components/Home";
 import HomeImg from "./components/HomeImg";
+import Message from "./components/Message";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <HomeImg/>
     <BuildYourWeb/>
     <FeatDevelopers/>
+    <Message/>
     </div>
   );
 }

@@ -4,15 +4,23 @@ import chatIcon from "../assets/Vector.png";
 const FeatDevelopers = () => {
   return (
     <div className="flex flex-col w-full pt-20 px-4 sm:px-10 lg:px-14 xl:px-32 bg-[#090707] text-white h-auto ">
-      <div className="flex flex-col mb-5 pt-2">
+      <div className="flex flex-col mb-5 pt-2 sm:text-left text-center">
         <h2 className="text-3xl font-medium">Featured Developers</h2>
         <h4 className="text-base font-extralight mt-3">
           Use our featured developers for your web projects
         </h4>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 ">
+      <div 
+      // className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 " 
+      style={{
+        display : 'grid',
+        gap : '0.75rem' ,
+      gridTemplateColumns: "repeat(auto-fit, minmax(12rem, 1fr))",
+      gridTemplateRows: "auto ",
+      gridAutoRows: "auto",
+    }} >
         {developers.map((developer) => (
-          <div className="">
+          <div className="w-full rounded relative group transition-all duration-300 ease-in-out cursor-pointer flex justify-center">
             <img src={developer.userImage} alt={developer.name} className=" " />
             <div
               className="group-hover:cursor-pointer group-hover:block hidden  w-full backdrop-blur-xl absolute bottom-0 left-0  bg-[rgba(9, 7, 7, 0.4)] p-2 transition-all duration-300 ease-in-out "

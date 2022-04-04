@@ -2,7 +2,7 @@ import React from "react";
 import Cartimg from "../assets/Cart.png";
 import Cardimg from "../assets/Card.png";
 import Searchimg from "../assets/Search.png";
-import logoDetails from "./logoDetails";
+import {logoDetails} from "./data";
  
 const BuildYourWeb = () => {
   return (

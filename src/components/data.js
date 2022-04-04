@@ -14,6 +14,17 @@ import developer3 from '../assets/ft-dev(6).png';
 import developer4 from '../assets/ft-dev(7).png';
 import developer5 from '../assets/ft-dev(8).png';
 
+import userimage1 from '../assets/user(9).png'
+import userimage2 from '../assets/user(10).png'
+import userimage3 from '../assets/user(11).png'
+import userimage4 from '../assets/user(12).png'
+import userimage5 from '../assets/user(13).png'
+import userimage6 from '../assets/user(14).png'
+import userimage7 from '../assets/user(15).png'
+import userimage8 from '../assets/user(16).png'
+import userimage9 from '../assets/user(17).png'
+
+
 export const logoDetails = [
     {
         name: 'webflow',
@@ -24,7 +35,7 @@ export const logoDetails = [
         name: 'css',
         image: cssLogo,
         style: `absolute sm:left-5 left-5 sm:bottom-24 bottom-24  sm:w-12 sm:h-12 w-10 h-10 `
-        
+
     },
     {
         name: 'html',
@@ -60,47 +71,103 @@ export const logoDetails = [
 
 ]
 
- export const developers = [
+export const developers = [
     {
         name: 'Agbama Ulimhuka',
-        job : 'Webflow developer',
+        job: 'Webflow developer',
         toolImage: webflowLogo,
-        userImage : developer5        
+        userImage: developer5
     },
     {
         name: 'Surita Patnam',
-        job : 'Bubble developer',
+        job: 'Bubble developer',
         toolImage: bubbleLogo,
-        userImage : developer1   
-        
+        userImage: developer1
+
     },
     {
         name: 'Richard Bomaventure',
-        job : 'React.js developer',
+        job: 'React.js developer',
         toolImage: reactLogo,
-        userImage : developer   
-        
+        userImage: developer
+
     },
     {
         name: 'Elliana James',
-        job : 'Vue.js developer',
+        job: 'Vue.js developer',
         toolImage: vueLogo,
-        userImage : developer2   
-        
+        userImage: developer2
+
     },
     {
         name: 'Richard Bomaventure',
-        job : 'React.js developer',
+        job: 'React.js developer',
         toolImage: reactLogo,
-        userImage : developer3   
-        
+        userImage: developer3
+
     },
     {
         name: 'Samuel Oghenakaro',
-        job : 'Webflow developer',
+        job: 'Webflow developer',
         toolImage: webflowLogo,
-        userImage : developer4   
-        
+        userImage: developer4
+
+    },
+]
+
+export const messages = [
+    {
+        username: 'Adebanjo Oludare',
+        msg: 'With clubweb i got a business website within 24hrs. This made a lot of sales while at home. I am happy to have found you guys early. Thanks',
+        userImage : userimage1
+    },
+    {
+        username: 'Diana Bartholomeum',
+        msg: 'I can’t dream of a better website development service provider like clubweb. Fast, simple and easy UI. I got a job because of the portfoilio website you made for me',
+        userImage : userimage2
+
+    },
+    {
+        username: 'Simeon Neto',
+        msg: 'Thanks to Clubweb, i learnt how to build a website with their learn website plan and i got employed as a webflow developer. Thanks',
+        userImage : userimage3
+
+    },
+    {
+        username: 'Victoria Roberts',
+        msg: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis, nec at odio eget. Pharetra, adipiscing turpis nibh amet. Risus orci a in adipiscing amet integer.',
+        userImage : userimage4
+
+    },
+    {
+        username: 'Solomon Esso',
+        msg: 'With clubweb i got a business website within 24hrs. This made a lot of sales while at home. I am happy to have found you guys early. Thanks',
+        userImage : userimage5
+
+    },
+    {
+        username: 'Human Rabbit Club',
+        msg: 'With clubweb i got a business website within 24hrs. This made a lot of sales while at home. I am happy to have found you guys early. Thanks',
+        userImage : userimage6
+
+    },
+    {
+        username: 'Lucas Anderson',
+        msg: 'With clubweb i got a business website within 24hrs. This made a lot of sales while at home. I am happy to have found you guys early. Thanks',
+        userImage : userimage7
+
+    },
+    {
+        username: 'Ricardo Perreira',
+        msg: 'With clubweb i got a business website within 24hrs. This made a lot of sales while at home. I am happy to have found you guys early. Thanks',
+        userImage : userimage8
+
+    },
+    {
+        username: 'Cherry Oludare',
+        msg: 'With clubweb i got a business website within 24hrs. This made a lot of sales while at home. I am happy to have found you guys early. Thanks',
+        userImage : userimage9
+
     },
 ]
 

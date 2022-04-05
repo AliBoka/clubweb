@@ -1,6 +1,7 @@
 import React from "react";
 import BuildYourWeb from "./components/BuildYourWeb";
 import FeatDevelopers from "./components/FeatDevelopers";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import HomeImg from "./components/HomeImg";
 import Message from "./components/Message";
@@ -16,6 +17,7 @@ function App() {
     <BuildYourWeb/>
     <FeatDevelopers/>
     <Message/>
+    <Footer/>
     </div>
   );
 }

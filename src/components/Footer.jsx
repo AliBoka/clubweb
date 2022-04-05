@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import img from "../assets/footerImg.png";
 import mobileImg from "../assets/mobileFooterImg.png";
-
+import {IoLogoLinkedin} from 'react-icons/io'
+import {ImFacebook2} from 'react-icons/im'
+import {FaTwitterSquare} from 'react-icons/fa'
+import {FaInstagram} from 'react-icons/fa'
 const Footer = () => {
   const [mobile, setMobile] = useState(window.innerWidth > 640 ? false : true);
   return (
@@ -32,7 +35,7 @@ const Footer = () => {
           <div className="relative">
             <img src={img} alt="footer-img" className="w-full" />
             <div
-              className="absolute z-50  w-full h-full top-0 rounded flex items-center"
+              className="absolute  w-full h-full top-0 rounded flex items-center"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.25)" }}
             >
               <div className="pl-12 pb-16">
@@ -45,6 +48,23 @@ const Footer = () => {
             </div>
           </div>
         )}
+      </div>
+      <div className="border border-[#282828] mt-28 mb-16 mx-4"></div>
+      <div className="flex flex-col rounded-md bg-blue-600 justify-center sm:items-center py-10 px-5  mx-3 sm:mx-0">
+        <h1 className="text-2xl sm:text-4xl font-semibold my-1 sm:my-3">Do you want to be a clubweber?</h1>
+        <h6 className="text-sm sm:text-base font-extralight  sm:my-5 my-1 pr-16 sm:pr-0">Be part of an exciting community of website developers</h6>
+      <button className="w-52 h-12 mt-4 rounded flex justify-center items-center bg-[#1A1919] hover:bg-white hover:text-[#1A1919] transition-all duration-300 ease-in-out">join clubweb</button>
+      </div>
+      <div className="border border-[#282828] mt-16 mb-10 mx-4"></div>
+      <div className="flex justify-between sm:px-0 px-3">
+        <p className="cursor-pointer">Privacy policy</p>
+          <div className="flex items-center text-2xl justify-around" >
+            <ImFacebook2 className="mr-3 cursor-pointer"/>
+            <FaTwitterSquare size={28} className="mr-2 cursor-pointer"/>
+            <IoLogoLinkedin className="mr-[0.40rem] cursor-pointer"size={30} />
+            <FaInstagram className=" cursor-pointer" size={28}/>
+          </div>
+          <p className="cursor-pointer">Clubwebs</p>
       </div>
     </div>
   );

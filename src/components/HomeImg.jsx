@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import homeImg from "../assets/homeimgMobile.png";
 import homeImg2 from "../assets/homepage-img.png";
 const HomeImg = () => {
- const [mobile, setMobile] = useState(false); 
+ const [mobile, setMobile] = useState(true); 
   return (
     <div name="homeimg" className="flex items-center h-screen py-20 bg-[#090707] w-full">
      {

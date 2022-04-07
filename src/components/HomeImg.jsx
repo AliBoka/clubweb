@@ -4,12 +4,16 @@ import homeImg2 from "../assets/homepage-img.png";
 import { CgChevronDoubleDown } from "react-icons/cg";
 import Link from "react-scroll/modules/components/Link";
 const HomeImg = () => {
-  const [mobil, setMobil] = useState(false);
- 
+ const [mobile, setMobile] = useState(window.innerWidth > 640 ? false : true); 
   return (
     <div name="homeimg" className="flex items-center h-screen py-20 bg-[#090707] w-full">
+     {
+          (window.onresize = () => {
+            window.innerWidth > 640 ? setMobile(false) : setMobile(true);
+          })
+        }
      { 
-     window.innerWidth > 412 ? (
+     mobile ? (
       
         <img
           src={homeImg2}
@@ -21,10 +25,7 @@ const HomeImg = () => {
        <img src={homeImg} alt="home-img" className=" w-full h-[380px]" />
       )
   }
-      {/* <Link to="homeimg" smooth={true} className="sm:absolute bottom-2 flex flex-col rounded-full h-10 w-10 bg-white justify-center items-center mb-2 cursor-pointer">
-          <CgChevronDoubleDown className="text-blue-600 text-2xl
-           "/>
-      </Link> */}
+     
     </div>
   );
 };
